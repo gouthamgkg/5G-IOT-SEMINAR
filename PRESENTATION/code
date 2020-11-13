@@ -1,0 +1,522 @@
+\documentclass[9pt]{beamer}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Use roboto Font (recommended)
+\usepackage[sfdefault]{roboto}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Define where theme files are located. ('/styles')
+\usepackage{styles/fluxmacros}
+\usefolder{styles}
+% Use Flux theme v0.1 beta
+% Available style: asphalt, blue, red, green, gray 
+\usetheme[style=asphalt]{flux}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Extra packages for the demo:
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{ragged2e}
+\usepackage{schemabloc}
+\usepackage{hyperref}
+\usebackgroundtemplate{
+\includegraphics[width=\paperwidth,height=\paperheight]{assets/background.jpg}}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Informations
+\title{Internet of Things (IoT)}
+\subtitle{for Next-Generation
+Smart Systems\\(Future Trends and Prospects for Emerging 5G-IoT Scenarios)}
+\author{Gouthaman K G \\S7 CS B }
+\institute{Guided By:\\Mr. Muhammed Ilyas H\\Department of Computer Science and Engineering}
+\titlegraphic{assets/gkg.png}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\begin{document}
+
+% Generate title page
+\titlepage
+
+\begin{frame}
+
+ \frametitle{TABLE OF CONTENTS}
+ \tableofcontents
+\end{frame}
+
+\section{INTRODUCTION}
+
+\begin{frame}{INTRODUCTION}
+\begin{itemize}
+\setlength\itemsep{1em}
+	\justifying
+	
+\item The  Internet  of  Things  (IoT)  is  now  an  active  research  area  which mainly focus on connecting real-world things over TCP/IP (Transmission Control protocol/Internet Protocol).
+\item  The IoT allows objects to be sensed or controlled remotely across existing network infrastructure.
+\vspace{1em}
+\begin{figure} fig 1.
+			\includegraphics[width=75mm,scale=1]{assets/iotintro.jpg}
+		\end{figure}
+\end{itemize}
+\end{frame}
+
+\def\beamer@mytheme@style{green}
+\begin{frame}[fragile]{INTRODUCTION}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+
+\justifying
+
+\item Lack  of  interoperability  at  the  application  level  makes  IoT  still  very immature.
+
+\item Another  challenge  is  to  provide  end  to  end  security,  as  they  are  often very constrained, and this limits the options for handling security.
+
+\item Currently, new business models set for IoT implementation requires massive connectivity, high privacy and security, complete coverage, ultra-high reliability and ultra-low latency.
+\item The trending 5G enabled IoT encompasses increased data-rates, better coverage and high throughput hence providing solutions to business models and enabling IoT to robots,
+actuators and drones.
+
+
+
+%\item Build a nanophotonic reservoir by exploiting and combining fast non linear light interactions to manipulate light
+\end{itemize}
+\end{frame}
+
+\section{ARCHITECTURAL TRENDS AND OBJECTIVES}
+
+\begin{frame}
+\frametitle{ARCHITECTURAL TRENDS AND OBJECTIVES}
+There are three components that form the basis of IoT architecture:
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+    \item Hardware: It comprises of sensor nodes, its embedded
+communication and interfacing circuitry.
+    
+    \item Middleware: It comprises of data storage, analysis and
+handling resources.
+    
+    \item Presentation layer: It comprises of efficient visualization tools that are compatible with various platforms for
+different applications and present the data to end-user in an
+understandable form.
+\vspace{1em}
+    \begin{figure} fig 2.
+			\includegraphics[width=175,scale=1]{assets/archit.png}
+		\end{figure}
+    
+    
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{ARCHITECTURAL TRENDS AND OBJECTIVES}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item The parameters affecting the architecture of IoT are manifold. Hence, current research efforts have been made to devise the most optimized architecture that handles network issues such as scalability, security, addressability, and efficient energy utilization.
+\item As for the future, the number of devices connected to the network will rise. Hence, the architecture of IoT must cater to it.Scalability, energy consumption, and addressing issues are all considered as challenges for successful deployment of IoT.
+\item Research is carried out in solving the scalability issues by developing various multi-hop routing protocols covering a larger area and are self-adapting. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{ARCHITECTURAL TRENDS AND OBJECTIVES}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item The energy consumption issues are addressed by using energy harvesting techniques, devising energy efficient MAC protocols and cross-layer protocols.
+
+\item On a large scale, the deployment of a combination of internet protocol (IPv6) and low-power wireless personal area networks (6LoWPAN) is suggested.
+
+\item On a smaller scale, European Coordinated Action aimed at redefining the RFID standards, so that RFID applications can be shifted to IoT.
+
+\item The 6LoWPAN technology targets at integrating the low power sensor nodes working at IEEE 802.15.4 protocol into IPv6 networks comprising of 10^{128} addresses.
+
+\end{itemize}
+\end{frame}
+\section{IoT OPPORTUNITIES AND PROSPECTS}
+\begin{frame}{IoT OPPORTUNITIES AND PROSPECTS}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item IoT offers many business opportunities, which allow companies to build new business strategies and models to implement the concept.
+\item It combines business studies, engineering skills, science and humanities all under one umbrella. Also, IoT transforms the world into a smart world, where everything is easily accessible in less time and effort.
+\vspace{1em}
+\begin{figure} fig 3.
+			\includegraphics[width=60mm,scale=1]{assets/iotapp1.png}
+		\end{figure}
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]{IoT OPPORTUNITIES AND PROSPECTS}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item Due to the extensive research and interest in the IoT domain since the concept was first introduced in the 1980s, various countries such as Canada, China, Brazil and UAE have implemented the concept of the smart-cities, smart cranes, smart flood warning system and smart-grid, respectively. 
+\item The reason behind the interest of the first world countries in IoT trends and developments is its prevailed benefits. The outlined benefits hence proved advantageous for the country’s economic sustainability, growth, urbanization, infrastructure, employment rate, citizens’ health and services.
+\begin{figure} fig 4.
+			\includegraphics[width=50mm,scale=1]{assets/iotapp2.png}
+		\end{figure}
+\end{itemize}
+\end{frame}
+\section{IoT - RECENT TRENDS}
+\begin{frame}{IoT - RECENT TRENDS}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item During this decade, concepts like augmented maps, autonomous car, mobile ticketing, and passenger counting in transportation/logistics domain have been successfully implemented.
+
+\item The continuous improvement in these technologies is also currently in practice. The concept of IoT enabled Robot taxi, which is underway as a futuristic application.
+
+\item Similarly, remote patient monitoring, smart biosensors, smart ambulances, wearable devices, tele medicines in IoT-enabled healthcare domain benifitted the society manifold. Public utility infrastructure has been improved to a large extent, with the concept of smart metering and smart-grid systems.
+\begin{figure} fig 5.
+			\includegraphics[width=42mm,scale=1]{assets/iotdev.jpg}
+		\end{figure}
+\end{itemize}
+\end{frame}
+\begin{frame}{IoT enabled smart environment}
+\begin{figure}
+			\includegraphics[width=105mm,scale=1]{assets/iottable.png} 
+			\\fig 6.
+		\end{figure}
+\end{frame}
+\begin{section}{5G ENABLED IoT – GLOBAL INITIATIVES}
+\begin{frame}{5G ENABLED IoT – GLOBAL INITIATIVES}
+\begin{itemize}
+\setlength\itemsep{1em}
+    
+\justifying
+
+\item Various initiatives are taken all around the world for adopting and standardizing 5G enabled IoT.
+
+\item International Mobile Telecommunications (IMT) also initiated the research and technology practices back in 2013 and the standardization in 2016.
+
+\item In 2015, it was decided that the Third Generation Partnership Project (3GPP) will formulate a group called technical specification group (TSG), which will be responsible for establishing 5G RAN(Radio Access Network).
+
+\begin{figure}
+			\includegraphics[width=100mm,scale=1]{assets/table2.png}
+			\\fig 7.
+		\end{figure}
+\end{itemize}
+\end{frame}
+\end{section}
+\begin{section}{SPECTRUM REQUIREMENTS OF 5G-IoT}
+\begin{frame}{SPECTRUM REQUIREMENTS OF 5G-IoT}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item A combination of low-band, mid-band and high band spectrum is desirable to manage the use cases of 5G enable IoT successfully as suggested by 5G America.
+
+\item Using a combination of different bands help to address certain use cases better than others.
+
+\item Apart from the generalized spectrum requirements, a new air interface called New Radio (NR) is defined by 3GPP for 5G. Its specification falls into two categories.
+
+\item Firstly, FR1, which refers to spectrum below 6GHz. Here, FCC has provided two licensed spectrums for 5G deployment.
+\vspace{1em}\\ 1) Citizens Broadband Radio Service (CBRS) operating at 3.55 – 3.7GHz. 
+\vspace{1em}\\2) C-band operating at 3.70 – 4.2GHz, respectively. Others possible spectrum ranges suggested by FCC are 6-7 GHz band (5.925-6.425 GHz and 6.425-7.125 GHz) which are unused and can support wider bandwidths than its predecessor (LTE). 
+
+\end{itemize}
+\end{frame}
+\end{section}
+\begin{frame}{SPECTRUM REQUIREMENTS OF 5G-IoT}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item Secondly, FR2, which is a higher frequency mmWave band has significant unused spectrum having large bandwidths which is suitable for 5G deployments. Therefore, 24GHz, 28GHz, 37GHz, 39GHz, and 47GHz are also identified for 5G deployment by FCC, and their auction is expected nearly.
+
+\item For instance, in Nov 2018, 28GHz band auction has begun. Other bands to be auctioned in 2019.In addition,bands such as 32GHz,42GHz and 50 GHz are also under consideration. 
+\begin{figure}
+			\includegraphics[width=110mm,scale=1]{assets/table3.png}
+			\\fig 8.
+		\end{figure}
+\end{itemize}
+\end{frame}
+\begin{section}{FEATURES EMPLOYED IN PHY LAYER TO SUPPORT
+5G-IoT}
+\begin{frame}{FEATURES EMPLOYED IN PHY LAYER TO SUPPORT
+5G-IoT}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item MIMO, CoMP, and the HetNets, etc. are some of the features that have been standardized for LTE/LTE Advanced (LTE-A) technology. 
+
+\item These technologies show encouraging results in providing massive connectivity and high data-rate. Therefore, 5G technology employs these concepts. 
+
+\item These concepts are discussed at first to get their insight in the next sub-sections.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{MASSIVE-MIMO (M-MIMO)}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The MIMO(Multi Input Multi Output) technology is considered a necessary part of LTE-A and is based on the concept of spatial multiplexing. Data streams from multiple antennas are multiplexed and are transmitted over a variety of spatially separated channels.
+
+\item M-MIMO is an integral part of the 5G infrastructure. At mmWave, many antenna elements are needed so that highly directional narrow beam can be produced to counteract the path-loss. 
+
+\item This technique becomes feasible to implement the high-order multi-user MIMO (MUMIMO) to enhance the small cell capacity. In 5G radio access network (RAN), is based on M-MIMO in ‘‘macroassisted small cells’’.
+
+\item M-MIMO allows the possibility of distributed MIMO, where multiple narrow beams simultaneously get transmitted to the same mobile station from the BS(Base Stations) at a different location to improve throughput and reduce the correlation among the antenna elements. 
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{COORDINATED MULTIPOINT PROCESSING (CoMP)}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item CoMP transmission in downlink and reception in uplink is a very effective way to enhance the cell-edge user throughput. CoMP utilizes distributed MIMO for transmission and reception from different antennas, which may not belong to the same cell to reduce, received spatial interference and enhanced the received signal quality. 
+
+\item CoMP is a very effective technique if deployed using MU-MIMO to increase cell edge coverage and reduce the outages caused by blocking and channel conditions.
+
+\item At mmWave, the study was carried out at 73GHz in an urban micro-cell environment for BS diversity in CoMP style manner. The CoMP is a transceiver technique, by which the interference issues can be lessened. This is done by coordinating the transmission and reception between the spatially distributed BSs using the channel state information.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{HETEROGENEOUS NETWORKS (HetNets)}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The HetNets supports the ‘‘green’’ aspect of 5G by maximizing the spectral efficiency through reusing the spectrum tightly and with low uplink and downlink power transmission making it spectrum and energyefficient. 
+
+\item Sharing the spectrum by the massive number of user equipment – an ultra-dense network (UDN) requires an intelligent interference mitigation technique. In order to cater for the interference, the HetNets uses enhanced inter cell interference coordination (e-ICIC) and further enhanced ICIC (feICIC).
+
+\item These features allow it to handle massive traffic and large node density; hence; making it suitable for satisfying the requirements of service-driven 5G enabled IoT.
+\end{itemize}
+\end{frame}
+\end{section}
+
+\begin{section}{ARCHITECTURAL VIEW OF 5G-IoT}
+\begin{frame}{ARCHITECTURAL VIEW OF 5G-IoT}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item A 5G architecture should be capable of proving a scalable network, network virtualization facility, cloud services, network densification capability,
+mobility control services, radio access control, efficient resource allocation mechanism, and big IoT data analysis tools. 
+
+\item In a nutshell, a 5G-IoT based architecture should provide an independent HetNet, that is self-configurable as per the application requirement.
+
+\item A cellular 5G architecture mainly consists of a front-haul, mid-haul, and back-haul networks.
+\vspace{1em}
+\\1) The front-haul network connects the remote radio-head (RRH) to the BBU(Base Band Unit).
+\vspace{1em}
+\\2) Back-haul refers to the connection between the BBU to the core wired network often made from coaxial cable and/or optical fibre.
+\vspace{1em}
+\\3) Mid-haul refers to the connection between RRH and the next link.
+
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{ARCHITECTURAL VIEW OF 5G-IoT}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item Millimeter waves makes it an excellent candidate for the polarization and various spatial processing techniques such as MIMO, M-MIMO and antenna beam forming, hence key architecture enabler of the 5G-IoT.
+\vspace{1em}
+\begin{center}
+			\includegraphics[width=110mm,scale=1]{assets/archi.jpg}
+			\\fig 9.
+		\end{center}
+\end{itemize}
+\end{frame}
+\end{section}
+
+\begin{section}{STANDARDIZATION IN 5G-IoT}
+\begin{frame}{STANDARDIZATION IN 5G-IoT}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The standardization process in the 5G-IoT involves mainly two types of standards.
+\vspace{1em}
+\\>> One is the technology standards that deal with network technology, protocols, and wireless communication and data aggregation standards. 
+\vspace{1em}
+\\>> Second is a regulatory standard that comprises of security and privacy of data.
+
+\end{itemize}
+\end{frame}
+\end{section}
+
+\begin{section}{AI DRIVEN USE CASES FOR 5G-IoT NETWORKS}
+\begin{frame}{AI DRIVEN USE CASES FOR 5G-IoT NETWORKS}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The higher data-rates possible in 5G-IoT makes it possible for the implementation of data-hungry and computation intensive Artificial Intelligence (AI) algorithms for various user applications. 
+
+\item With high data transmission capacity of the network comes a possibility of the use of efficient deep learning algorithms such as virtual speech recognition and video classification over wireless 5G-IoT nodes.
+
+\item The combination of 5G, IoT and AI has a higher potential of changing the landscape of businesses by making intelligent decisions in real-time.
+
+\item Some current and futuristic AI based applications that could be supported over 5G-IoT are summarized on the upcoming slides.
+
+\end{itemize}
+\end{frame}
+
+
+\end{section}
+
+\begin{frame}{EXPANDING THE HORIZON OF HEALTHCARE}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+
+\item The combination of 5G and AI in the field of healthcare can improve the lives of millions of people by upgrading the existing system.
+
+\item A personalized emotion-aware healthcare system can be implemented using 5G that emphasizes on the emotional care, especially for children, and mentally ill and elderly people.
+\vspace{1em}
+\begin{figure} fig 10.
+			\includegraphics[width=92mm,scale=1]{assets/healthcare.png}
+		\end{figure}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{SMART TRANSPORTATION SYSTEMS}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item Vehicles with continuous connectivity, are becoming a reality with the integration of 5G with IoT. This integration has given the ability to access the internet in a more efficient way.
+
+\item Researches have been performed regarding a self-driven vehicle with the use of connecting to the internet. Just like other IoT devices, a smart transportation system can also provide new features for more control.
+
+\item The installation of sensors in traffic lights provide the data which helps in making decisions for efficient traffic routes reducing the propagation time of vehicles. The integration of IoT with 5G has improved the overall traffic system.
+\begin{figure} fig 11.
+			\includegraphics[width=61mm,scale=1]{assets/iotcar.png}
+		\end{figure}
+
+\end{itemize}
+\end{frame}
+
+\begin{section}{CHALLENGES AND ISSUES}
+\begin{frame}{CAN 5G FIND BAL BTW CONNECTIVITY AND SECURITY?}
+    
+
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The arbitrary connection of cellular phone devices to the network, gives rise to security related issues such as interception of data flowing in a network and incorporation of unauthorized codes to unofficially control the network services.
+
+\item This exchange of data among devices, with the assistance of coexisting technologies, requires security at almost each relay node or a BS in order to sustain the security of the network services.
+
+\item The implementation of secure boot and reliable execution environment contributes to the security of intelligent devices which protects them from illegal involvement of other devices.
+
+\item An amalgamation of intelligent system and security of software will not only strengthen the safe communication of interconnected IoT devices, but also motivates the novel approaches for upcoming wireless communication networks.
+
+
+\end{itemize}
+\end{frame}
+\end{section}
+
+\begin{frame}{IS 5G FLEXIBLE ENOUGH FOR DIFF TYPES OF NET CONFIG?}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item The traffic generated by such IoTs is different from that generated by cellular systems in many aspects. First, unlike the case of broadband access, most IoT traffic is in the uplink. 
+
+\item IoT networks’ messages are typically small in size and sparse in time. Furthermore, IoT devices are limited in energy and computation resources.
+
+\item These IoT devices’ characteristics make their access to 5G systems different from classical cellular devices. Identifying the right system parameter configuration for the specific IoT use case is a big challenge.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{HOW WILL 5G CATER HIGHER DENSITY OF CONN DEVICES?}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item In 5G technology, one million devices could be connected over 0.38 mi2, whereas in 4G, only two thousand devices can be connected.
+
+\item This extensive coverage would significantly drain the battery of devices. The intelligent 5G-IoT network constitutes narrowband IoT (NB-IoT) that is required for effective energy utilization and it contributes to considerably lower-power communication.
+
+\item Thus, an intelligent 5G-IoT environment will assure the capability to process huge volume of data with minimal latency, reliability, and sustained accessibility of the network services. 
+
+\item For effective management and handling of devices, 
+the requirement of intelligence for IoT-based devices is essential especially when huge traffic is formed by all connected elements via Internet.
+
+
+\end{itemize}
+\end{frame}
+
+\begin{section}{CONCLUSION}
+\begin{frame}{CONCLUSION}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item This presentation presents an exhaustive review of the 5G wireless technologies that have become key enablers for the all-over deployment of the IoT technology.
+
+\item A review of the evolution of cellular wireless technologies making a case how 5G wireless technology improved upon its predecessor technologies.
+
+\item The various architectural components of the 5G networks are also discussed, with special emphasis to the key improvements to the physical layer of 5G networks over its predecessors.
+
+\item High data transmission rates with low latency from the 5G-IoT nodes are vital for the cloud based application layer programs running state of the art artificial intelligence, machine and deep learning algorithms for efficient real-time data processing and prediction.
+
+\item The various challenges and issues along with modern day applications running on top of 5G-IoT, e.g. smart transport, smart healthcare etc are also discussed.
+
+\end{itemize}
+\end{frame}
+\end{section}
+
+\begin{section}{REFERENCES}
+\begin{frame}{REFERENCES}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+
+\item Referred paper: \url{https://ieeexplore.ieee.org/document/8972389}
+
+\item \url{https://en.wikipedia.org/wiki/Internet_of_things}
+
+\item \url{https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.300.7679&rep=rep1&type=pdf}
+
+\item figure 1: \url{https://teqnation.com/wp-content/uploads/2019/03/iStock-961852690.jpg}
+
+\item figure 2: \url{https://content.altexsoft.com/media/2020/08/iot-architecture-building-blocks.png}
+
+\item figure 3 and 4: \url{https://d3i71xaburhd42.cloudfront.net/7854aab622ff6c37f0539dfb8c8d95995c8beb10/4-Figure1-1.png}
+
+
+\item figure 5: \url{https://assets1.risnews.com/inline-images/ii0517.jpg}
+
+\item figure 6: \url{https://ieeexplore.ieee.org/document/8972389}
+\end{itemize}
+\end{frame} 
+\end{section}
+\begin{frame}{REFERENCES}{Contd.}
+\begin{itemize}
+\setlength\itemsep{1em}
+\justifying
+\item figure 7: \url{https://ieeexplore.ieee.org/document/8972389}
+
+\item figure 8: \url{https://ieeexplore.ieee.org/document/8972389}
+
+\item figure 9: \url{https://ieeexplore.ieee.org/document/8972389}
+
+\item figure 10: \url{https://www.sam-solutions.com/blog/wp-content/uploads/2017/05/healthcare.png}
+
+\item figure 11: \url{https://d3e3a9wpte0df0.cloudfront.net/wp-content/uploads/2018/10/predictive-maintenance-with-connected-IoT.png}
+\end{itemize}
+\end{frame}
+\begin{frame}{thank youuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu}
+\center \huge \emph{\textbf{THANK YOU}}
+\end{frame}
+
+
+\end{document}
